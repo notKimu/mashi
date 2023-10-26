@@ -1,0 +1,39 @@
+{
+  "name": "mashi",
+  "version": "1.0.0",
+  "description": "A simple minecraft server downloader assistant",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./build/index.js",
+    "build": "rm -rf ./build && npx tsc"
+  },
+  "keywords": [
+    "minecraft",
+    "mc",
+    "server",
+    "helper",
+    "downloader",
+    "paper",
+    "forge",
+    "bukkit",
+    "spigot",
+    "purpur"
+  ],
+  "author": "kimu",
+  "license": "ISC",
+  "dependencies": {
+    "@types/got": "^9.6.12",
+    "@types/ora": "^3.2.0",
+    "cli-spinners": "^2.9.1",
+    "got": "^13.0.0",
+    "inquirer": "^8.2.6",
+    "ora": "^7.0.1",
+    "process": "^0.11.10",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.6",
+    "@types/node": "^20.8.8"
+  }
+}
